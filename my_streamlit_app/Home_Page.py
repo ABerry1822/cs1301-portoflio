@@ -7,7 +7,7 @@ import streamlit as st
 st.title("Web Development Lab01")
 
 # Assignment Data 
-st.write("**CS 1301**")  
+st.write("**Aidan Berry**")  
 st.write("Web Development - Section B")
 st.write("**Aidan Berry**")
 
