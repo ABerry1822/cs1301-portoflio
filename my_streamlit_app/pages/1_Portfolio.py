@@ -41,7 +41,7 @@ def education_section(education_data, course_data):
     st.write(f"**Graduation Date:** {education_data['Graduation Date']}")
     st.write(f"**GPA:** {education_data['GPA']}")
     st.write("**Relevant Coursework:**")
-    coursework = pd.DataFrame(course_data)
+    coursework = id.DataFrame(course_data)
     st.dataframe(coursework, column_config={
         "code": "Course Code",
         "names": "Course Names", 
