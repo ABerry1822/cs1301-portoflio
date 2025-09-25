@@ -84,7 +84,7 @@ if st.button("Get My Results!"):
     if CactusScore > SunflowerScore and CactusScore > SnakePlantScore and CactusScore > PothosScore:
         st.success(f'**You are a Cactus!**')
         st.write("Dependable, resilient, and detetermined")
-        st.image(get_image_path)"cactus.jpeg")
+        st.image(get_image_path)("cactus.jpeg")
     elif SunflowerScore > CactusScore and SunflowerScore > SnakePlantScore and SunflowerScore > PothosScore:
         st.success(f'**You are a Sunflower!**')
         st.write(f'Outgoing, optimistic, and cheery')
