@@ -18,7 +18,7 @@ Welcome to our Streamlit Web Development Lab01 app! You can navigate between the
 
 st.write("1. **Home**: This main landing page")  
 st.write("2. **Portfolio**: My personal portfolio with education, experience, skills, and projects")
-st.write("3. **Data Analysis**: Data visualization page for Phase II")
-st.write("4. **About**: Information about this project")
+st.write("3. **Plant Quiz**: A Buzzfeed style quiz to determine your plant personality!")
+st.write("4. **My Plants!**: A display of my collection of plants!")
 
 st.write("---")
