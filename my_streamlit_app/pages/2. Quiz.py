@@ -17,7 +17,7 @@ favcolors = st.multiselect(
     ["Green", "Yellow","Pink", "Purple", "Blue"]
 )
 socialnum = st.slider(
-    "4. How social are you? (1=lone wolf, 10=life of the party)",
+    "4. How social are you? (1=lone wolf, 5=life of the party)",
         1,5,3
     )
 patiencelevel= st.number_input(
