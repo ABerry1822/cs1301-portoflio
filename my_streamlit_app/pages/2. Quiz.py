@@ -1,6 +1,10 @@
 import streamlit as st
 import random
 
+def get_image_path(filename):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    main_app_dir = os.path.dirname(current_dir)
+    return os.path.join(main_app_dir, "Images", filename)
 st.title("What Plant Are You?")
 st.write("Discover your plant personality")
 
@@ -80,23 +84,23 @@ if st.button("Get My Results!"):
     if CactusScore > SunflowerScore and CactusScore > SnakePlantScore and CactusScore > PothosScore:
         st.success(f'**You are a Cactus!**')
         st.write("Dependable, resilient, and detetermined")
-        st.image("Images/cactus.jpeg")
+        st.image(get_image_path)"cactus.jpeg")
     elif SunflowerScore > CactusScore and SunflowerScore > SnakePlantScore and SunflowerScore > PothosScore:
         st.success(f'**You are a Sunflower!**')
         st.write(f'Outgoing, optimistic, and cheery')
-        st.image(f'Images/sunflower.jpeg"')
+        st.image(get_imagepath)(f'sunflower.jpeg"')
     elif SnakePlantScore > SunflowerScore and SnakePlantScore > CactusScore and SnakePlantScore > PothosScore:
         st.success(f'**You are a Snake Plant!**')
         st.write(f'Mysterious, adaptable, and sophisticated')
-        st.image("Images/snake_plant.jpeg")
+        st.image(get_image_path)("snake_plant.jpeg")
     elif PothosScore > SunflowerScore and PothosScore > CactusScore and PothosScore > SnakePlantScore:
         st.success(f'**You are a Pothos!**')
         st.write(f'Cool, lighthearted, and peacekeeping')
-        st.image("Images/pothos.jpeg")
+        st.image(get_image_path)("pothos.jpeg")
     else:
         st.success("**It's a tie!**'")
         st.write('You have a balanced plant personality!')
-        st.image("Images/neutral.jpeg")
+        st.image(get_image_path)("neutral.jpeg")
                    
         
         
