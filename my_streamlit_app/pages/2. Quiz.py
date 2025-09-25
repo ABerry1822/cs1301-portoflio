@@ -84,23 +84,23 @@ if st.button("Get My Results!"):
     if CactusScore > SunflowerScore and CactusScore > SnakePlantScore and CactusScore > PothosScore:
         st.success(f'**You are a Cactus!**')
         st.write("Dependable, resilient, and detetermined")
-        st.image(get_image_path)("cactus.jpeg")
+        st.image(get_image_path("cactus.jpeg"))
     elif SunflowerScore > CactusScore and SunflowerScore > SnakePlantScore and SunflowerScore > PothosScore:
         st.success(f'**You are a Sunflower!**')
         st.write(f'Outgoing, optimistic, and cheery')
-        st.image(get_imagepath)(f'sunflower.jpeg"')
+        st.image(get_imagepath(f'sunflower.jpeg"'))
     elif SnakePlantScore > SunflowerScore and SnakePlantScore > CactusScore and SnakePlantScore > PothosScore:
         st.success(f'**You are a Snake Plant!**')
         st.write(f'Mysterious, adaptable, and sophisticated')
-        st.image(get_image_path)("snake_plant.jpeg")
+        st.image(get_image_path("snake_plant.jpeg"))
     elif PothosScore > SunflowerScore and PothosScore > CactusScore and PothosScore > SnakePlantScore:
         st.success(f'**You are a Pothos!**')
         st.write(f'Cool, lighthearted, and peacekeeping')
-        st.image(get_image_path)("pothos.jpeg")
+        st.image(get_image_path("pothos.jpeg"))
     else:
         st.success("**It's a tie!**'")
         st.write('You have a balanced plant personality!')
-        st.image(get_image_path)("neutral.jpeg")
+        st.image(get_image_path("neutral.jpeg"))
                    
         
         
