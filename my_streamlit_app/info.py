@@ -61,8 +61,8 @@ spoken_data = {
     "French": "In the process of learning",
 }
 leadership_data = {
-    "Team Captain": (["Led soccer team", "Organized practices"], "images/soccer.jpeg"),
-    "Club President": (["Managed budget", "Organized meetings"], "images/HOCO.jpeg")
+    "Team Captain": (["Led soccer team", "Organized practices"], "soccer.jpeg"),
+    "Club President": (["Managed budget", "Organized meetings"], "HOCO.jpeg")
 }
 activity_data = {
     "Coastal Cleanup Volunteer": (
@@ -70,6 +70,6 @@ activity_data = {
             "- Cleaned up the Gulf Coast to maintain our estuaries", 
             "- advertised project to other community members"
         ], 
-        "images/mobile bay.jpeg"
+        "mobile bay.jpeg"
     )
 }
