@@ -100,7 +100,7 @@ def activities_section(leadership_data, activity_data):
         for title, (details, image) in activity_data.items():
             expander = st.expander(f"{title}")
             image_path = get_image_path(image)
-            expander.image(image, width=250)
+            expander.image(image_path, width=250)
             for bullet in details:
                 expander.write(bullet)
     st.write("---")
