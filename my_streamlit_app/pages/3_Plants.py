@@ -5,7 +5,7 @@ def get_image_path(filename):
     main_app_dir = os.path.dirname(current_dir)
     return os.path.join(main_app_dir, "Images", filename)
 st.title("My Plants!")
-st.image(get_image_path("group.jpeg))
+st.image(get_image_path("group.jpeg"))
 st.write(f'This is my collection of plants! Most of them have been with me the whole semester, but some are new')
 left, right = st.columns(2)
 with left:
