@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 import info
-
+import panda as pd
 def get_image_path(filename):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     main_app_dir = os.path.dirname(current_dir)
@@ -41,7 +41,7 @@ def education_section(education_data, course_data):
     st.write(f"**Graduation Date:** {education_data['Graduation Date']}")
     st.write(f"**GPA:** {education_data['GPA']}")
     st.write("**Relevant Coursework:**")
-    coursework = id.DataFrame(course_data)
+    coursework = pd.DataFrame(course_data)
     st.dataframe(coursework, column_config={
         "code": "Course Code",
         "names": "Course Names", 
