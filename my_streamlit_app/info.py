@@ -32,7 +32,7 @@ course_data = {
     }
 experience_data = {
     "Barista at Cloud Mountain Coffee": (["- Established connections with other nonprofit organizations",
-                                                                          "- Made specialty espresso", "- advertised for a nonprofit"],"images/View recent photos.jpeg"),
+                                                                          "- Made specialty espresso", "- advertised for a nonprofit"],"View recent photos.jpeg"),
    
 
 }
