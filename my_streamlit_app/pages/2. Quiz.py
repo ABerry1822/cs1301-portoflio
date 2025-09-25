@@ -84,11 +84,11 @@ if st.button("Get My Results!"):
     elif SunflowerScore > CactusScore and SunflowerScore > SnakePlantScore and SunflowerScore > PothosScore:
         st.success(f'**You are a Sunflower!**')
         st.write(f'Outgoing, optimistic, and cheery')
-        st.write(f'images/sunflower.jpeg"')
+        st.image(f'images/sunflower.jpeg"')
     elif SnakePlantScore > SunflowerScore and SnakePlantScore > CactusScore and SnakePlantScore > PothosScore:
         st.success(f'**You are a Snake Plant!**')
         st.write(f'Mysterious, adaptable, and sophisticated')
-        st.image("images/snake plant.jpeg")
+        st.image("images/snake_plant.jpeg")
     elif PothosScore > SunflowerScore and PothosScore > CactusScore and PothosScore > SnakePlantScore:
         st.success(f'**You are a Pothos!**')
         st.write(f'Cool, lighthearted, and peacekeeping')
