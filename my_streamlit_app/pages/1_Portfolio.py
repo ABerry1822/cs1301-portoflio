@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 import info
-import panda as pd
+import pandas as pd
 def get_image_path(filename):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     main_app_dir = os.path.dirname(current_dir)
