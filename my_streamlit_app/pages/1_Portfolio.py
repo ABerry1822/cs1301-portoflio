@@ -1,30 +1,15 @@
 import os
 import streamlit as st
 import info
-import pandas as pd
-import info
-import streamlit as st
 
 def get_image_path(filename):
-    """Get the absolute path to an image file that works on both local and Streamlit Cloud"""
-    # Get the directory where this Python file is located
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Go up one level to the main app directory
     main_app_dir = os.path.dirname(current_dir)
-    
-    # Construct the path to the image
-    image_path = os.path.join(main_app_dir, "Images", filename)
-    
-    return image_path
+    return os.path.join(main_app_dir, "Images", filename)
 
-# Usage example:
-def about_me_section():
-    photo_path = get_image_path("photo.jpeg")
-    st.image(photo_path, width=200)
 def about_me_section():
     st.header("About Me")
-    st.image("Images/photo.jpeg", width=200)
+    st.image(get_image_path("photo.jpeg"), width=200)
     st.write(info.about_me)
     st.write('---')
 about_me_section()
