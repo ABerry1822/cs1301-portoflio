@@ -5,7 +5,7 @@ import pandas as pd
 import info
 def about_me_section():
     st.header("About Me")
-    st.image("photo.jpeg", width=200)
+    st.image("../Images/photo.jpeg", width=200)
     st.write(info.about_me)
     st.write('---')
 about_me_section()
