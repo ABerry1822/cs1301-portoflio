@@ -91,7 +91,7 @@ def activities_section(leadership_data, activity_data):
         st.subheader("Leadership")
         for title, (details, image) in leadership_data.items():
             expander = st.expander(f"{title}")
-            image_path = get_image_path(soccer.jpeg)
+            image_path = get_image_path(image_filename)
             expander.image(image_path, width=250)
             for bullet in details:
                 expander.write(bullet)
