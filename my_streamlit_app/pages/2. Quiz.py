@@ -80,23 +80,23 @@ if st.button("Get My Results!"):
     if CactusScore > SunflowerScore and CactusScore > SnakePlantScore and CactusScore > PothosScore:
         st.success(f'**You are a Cactus!**')
         st.write("Dependable, resilient, and detetermined")
-        st.image("images/cactus.jpeg")
+        st.image("Images/cactus.jpeg")
     elif SunflowerScore > CactusScore and SunflowerScore > SnakePlantScore and SunflowerScore > PothosScore:
         st.success(f'**You are a Sunflower!**')
         st.write(f'Outgoing, optimistic, and cheery')
-        st.image(f'images/sunflower.jpeg"')
+        st.image(f'Images/sunflower.jpeg"')
     elif SnakePlantScore > SunflowerScore and SnakePlantScore > CactusScore and SnakePlantScore > PothosScore:
         st.success(f'**You are a Snake Plant!**')
         st.write(f'Mysterious, adaptable, and sophisticated')
-        st.image("images/snake_plant.jpeg")
+        st.image("Images/snake_plant.jpeg")
     elif PothosScore > SunflowerScore and PothosScore > CactusScore and PothosScore > SnakePlantScore:
         st.success(f'**You are a Pothos!**')
         st.write(f'Cool, lighthearted, and peacekeeping')
-        st.image("images/pothos.jpeg")
+        st.image("Images/pothos.jpeg")
     else:
         st.success("**It's a tie!**'")
         st.write('You have a balanced plant personality!')
-        st.image("images/neutral.jpeg")
+        st.image("Images/neutral.jpeg")
                    
         
         
