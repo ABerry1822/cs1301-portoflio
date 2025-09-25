@@ -55,7 +55,7 @@ def experience_section(experience_data):
     st.header("Professional Experience")
     for job_title, (job_description, image) in experience_data.items():
         expander = st.expander(f"{job_title}")
-        image_path = get_image_path("View recent photo.jpeg")
+        image_path = get_image_path("View recent photos.jpeg")
         expander.image(image_path, width=250)
         for bullet in job_description:
             expander.write(bullet)
