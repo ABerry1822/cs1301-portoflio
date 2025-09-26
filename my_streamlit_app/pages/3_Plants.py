@@ -10,7 +10,7 @@ st.write(f'This is my collection of plants! Most of them have been with me the w
 left, right = st.columns(2)
 with left:
     st.header(f'New Plants!')
-    st.image(get_image_path("antherium.jpg))
+    st.image(get_image_path("antherium.jpg"))
     st.write(f"This antherium plant has been back in my hometown, but now it is in Atlanta! This plant has liked a lot of light, so it enjoys my windowsill.")
     st.image("(get_image_path("pony palm.jpg)")
     st.write(f'This is a new plant that my mom bought and brought to me. It is a pony palm! It is very low maintenance and only needs to be watered once a month.')
