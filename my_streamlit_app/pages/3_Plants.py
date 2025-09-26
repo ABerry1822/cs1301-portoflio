@@ -12,8 +12,6 @@ with left:
     st.header(f'New Plants!')
     st.image(get_image_path("antherium.jpg"))
     st.write(f"This antherium plant has been back in my hometown, but now it is in Atlanta! This plant has liked a lot of light, so it enjoys my windowsill.")
-    st.image(get_image_path("pony_palm.jpg"))
-    st.write(f'This is a new plant that my mom bought and brought to me. It is a pony palm! It is very low maintenance and only needs to be watered once a month.')
 with right:
     st.header(f'Original Plants!')
     st.image(get_image_path("propogations.jpeg"))
