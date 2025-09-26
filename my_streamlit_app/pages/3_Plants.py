@@ -14,7 +14,7 @@ with left:
     st.write(f"This antherium plant has been back in my hometown, but now it is in Atlanta! This plant has liked a lot of light, so it enjoys my windowsill.")
 with right:
     st.header(f'Original Plants!')
-    st.image(get_image_path("propogations.jpeg"))
+    st.image(get_image_path("propogations.jpg"))
     st.write(f"These two bottles are propogations of my philodendron that I brought with me! My floormates and I are going to trade propogations. Propogating philodendrons is very easy")
     st.image("https://imgur.com/undefined")
     st.write(f"Not only did this plant come with me to college, it also is my oldest plant! I am unsure what it is, but it has grown a lot with me, so I think it's cool")
