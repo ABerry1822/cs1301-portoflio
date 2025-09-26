@@ -18,6 +18,6 @@ with right:
     st.write(f"These two bottles are propogations of my philodendron that I brought with me! My floormates and I are going to trade propogations. Propogating philodendrons is very easy")
     st.image("https://imgur.com/undefined")
     st.write(f"Not only did this plant come with me to college, it also is my oldest plant! I am unsure what it is, but it has grown a lot with me, so I think it's cool")
-    st.image("https://imgur.com/cNLtir5")
+    st.image(get_image_path("chain.jpeg"))
     st.write(f'This is a part of my group of succulents! It is not looking healthy right now, so I did not take a picture of it. When a chain of hearts blooms, it sprouts little bulbs!')
 
